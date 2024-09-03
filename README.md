@@ -1,4 +1,4 @@
-# [Module-Name]
+# Microbial analysis of 16S rRNA sequencing data
 ---------------------------------
 
 ## **Contents**
