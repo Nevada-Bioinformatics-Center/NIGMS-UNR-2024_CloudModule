@@ -1,6 +1,12 @@
 # Jupyter Notebook cache
 **.ipynb_checkpoints/
 
+# Local data
+datach/
+tax/
+test.ipynb
+R/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
