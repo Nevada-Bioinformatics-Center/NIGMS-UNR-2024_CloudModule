@@ -1,6 +1,5 @@
 # Microbial analysis of 16S rRNA sequencing data
-
----------------------------------
+------------------------------------------------
 
 ## **Contents**
 
@@ -37,7 +36,7 @@ The goal of this learning module, is to provide deeper insights into the princip
 
 ## **Getting Started**
 
-Each learning submodules is organized in a R Jupyter notebook with step-by-step hands-on practice with R command line to install necessary tools, obtain data, perform analyses, visualize and interpret the results. The notebook will be executed in the Amazon AWS environment.
+This learning module was designed to be used on cloud computing platforms, with the aim of requiring nothing but the files within this github repository. Each learning submodules is organized in R Jupyter notebooks with step-by-step hands-on practice with R command line to install necessary tools, obtain data, perform analyses, visualize and interpret the results. The notebook will be executed in the Amazon Web Service provided the R packages are installed.
 
 ## **Software Requirements**
 
@@ -51,7 +50,6 @@ Each learning submodules is organized in a R Jupyter notebook with step-by-step 
 
 ## **Funding**
 
-This work was fully supported by NIH NIGMS under grant number GM103440. Any opinions, findings, and conclusions, or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of any of the funding agencies.
+This work was fully supported by NIH NIGMS under grant number {GRANT NUMBER}.
 
 ## **License for Data**
-
