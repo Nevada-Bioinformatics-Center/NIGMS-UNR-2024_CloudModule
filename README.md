@@ -18,26 +18,24 @@
 
 ## **Overview**
 
-This cloud-based learning module introduces the principles of 16S rRNA sequencing and its applications in microbial community analysis. 16S rRNA gene sequencing is a commonly used method to study the diversity and composition of microbial communities by focusing on a specific region of the ribosomal RNA (rRNA) gene that is present in all bacteria. This generates a vast amount of data by sequencing technologies. Understanding how to process and analyze this data through a series of computational steps is critical in studies related to the human gut microbiome, among others.
+This cloud-based learning module introduces the principles of 16S rRNA sequencing and its applications in microbial community analysis. 16S rRNA gene sequencing is a commonly used method to study the diversity and composition of microbial communities by focusing on a specific region of the ribosomal RNA (rRNA) gene that is present in all bacteria. This sequencing techniique generates a vast amount of data. Understanding how to process and analyze this data through a series of computational steps is critical in studies related to the human gut microbiome, among others.
 
 ## **Background**
 
-The study of microbial communities and their dynamics is essential for understanding ecosystems, human health, and environmental processes. Traditional methods of identifying and characterizing microorganisms, such as culturing, often fail to capture the full diversity of microbes present in a given sample. This is where molecular techniques, particularly 16S ribosomal RNA (rRNA) sequencing, have revolutionized microbial analysis.
+The study of microbial communities and their dynamics is essential for understanding ecosystems, human health, and environmental processes. Traditional methods of identifying and characterizing microorganisms, such as culturing, often fail to capture the full diversity of microbes present in a given sample. This is where molecular techniques, particularly 16S rRNA sequencing, have revolutionized microbial analysis.
 
-16S rRNA sequencing focuses on the _16S rRNA_ gene, a component of the small subunit of the ribosome found in all bacteria and archaea. This gene is highly conserved among different species, but also contains hypervariable regions that differ between taxa, making it an ideal target for identifying and classifying microbes at various taxonomic levels - from phylum to species. Because of its universal presence in bacteria and archaea, 16S rRNA sequencing allows for the detection of a wide range of microorganisms, even those that are difficult or impossible to culture.
+16S rRNA sequencing focuses on a component of the small subunit of the ribosome found in all bacteria and archaea. This gene is highly conserved among different species, but also contains hypervariable regions that differ between taxa, making it an ideal target for identifying and classifying microbes at various taxonomic levels - from phylum to species. 
 
-The process involves amplifying the 16S rRNA gene from environmental DNA samples, followed by sequencing and bioinformatic analysis. The resulting data provides a detailed profile of the microbial community present in a sample, including the relative abundance of various species. This has profound applications in fields such as environmental microbiology, clinical diagnostics, gut microbiome research, and biotechnology, where understanding microbial composition can reveal important insights into health, disease, and ecological function.
+The process involves amplifying the gene from environmental DNA samples, followed by sequencing and bioinformatic analysis. The resulting data provides a detailed profile of the microbial community present in a sample, including the relative abundance of various species. This has profound applications in fields such as environmental microbiology, clinical diagnostics, gut microbiome research, and biotechnology, where understanding microbial composition can reveal important insights into health, disease, and ecological function.
 
-By leveraging the power of 16S rRNA sequencing, researchers can gain a deeper understanding of microbial diversity and its functional roles in complex environments. This technique not only advances our knowledge of microbial ecosystems but also paves the way for novel strategies in disease prevention, environmental management, and even personalized medicine.
-
-The goal of this learning module, is to provide deeper insights into the principles of 16S rRNA sequencing by profiling microbial communities for their composition and diversity. This is done by applying bioinformatics analysis steps from quality control and sequence processing to taxonomic assignment and diversity analysis of the raw sequencing data.
+The objective of this module is to enhance understanding of 16S rRNA sequencing principles by analyzing microbial community composition and diversity. This involves bioinformatics, including quality control, sequence processing, taxonomic assignment, and diversity analysis.
 
 ## **Before Starting**
 
 
 ## **Getting Started**
 
-This learning module was designed to be used on cloud computing platforms, with the aim of requiring nothing but the files within this github repository. Each learning submodules is organized in R Jupyter notebooks with step-by-step hands-on practice with R command line to install necessary tools, obtain data, perform analyses, visualize and interpret the results. The notebook will be executed in the Amazon Web Service provided the R packages are installed.
+This learning module was designed to be used on cloud computing platforms, with the aim of requiring nothing but the files within this GitHub repository. Each learning submodules is organized in Jupyter notebooks with step-by-step hands-on practice. This module using the coding languge R to install necessary tools, obtain data, perform analyses, and visualize the results. This module will be executed on Amazon Web Services’ (AWS) cloud platform. 
 
 ## **Software Requirements**
 
@@ -47,7 +45,7 @@ This learning module was designed to be used on cloud computing platforms, with 
 
 ## **Data**
 
- Gut microbiome data from the **WOLFPACK Study** (Wide Open Local Fecal sample collection comparing Pharmaceutical intake, ACtivity, and dietary intaKe) will be analyzed in this learning module. This study is part of the University of Nevada, Reno study, which is designed to explore how diet, health, and many lifestyle aspects impact the gut microbiome of adults living in Northern Nevada.
+ Gut microbiome data from the **WOLFPACK Study** (Wide Open Local Fecal sample collection comparing Pharmaceutical intake, ACtivity, and dietary intaKe) will be analyzed in this module. This is a University of Nevada, Reno study, designed to explore how diet, health, and lifestyle impact the gut microbiome of adults living in Northern Nevada.
 
 ## **Funding**
 
