@@ -44,18 +44,35 @@ This learning module was designed to be executed on Amazon Web Services (AWS) cl
 
  Each learning sub-modules is organized in Jupyter notebooks with step-by-step hands-on practice. This module uses the coding languge R to install necessary tools, obtain data, perform analyses, and visualize the results. Please, follow the steps highlighed [here] to create a new user account in AWS, open AWS Sagemaker Studio and launch JupyterLab.
 
-- Step 1: Open the Terminal to clone the GitHub repository with the modules and the data. Use the Git command
- ```
- git clone https://github.com/Nevada-Bioinformatics-Center/NIGMS-UNR-2024_CloudModule
- ```
-  ![step 1](images/step1.png)
+- Step 1: Open the Terminal to clone the GitHub repository with the modules and the data. Use the Git command:
+
+```
+git clone https://github.com/Nevada-Bioinformatics-Center/NIGMS-UNR-2024_CloudModule
+```
+
+<p align="center">
+ <img width= "250" height= "250" src="images/step1.png">
+</p>
+
 - Step 2: After running the command, a new folder will be visible in the left pane labeled "NIGMS-UNR-202..". Select it.
-  ![step2](images/step2.png)
+
+<p align="center">
+ <img width= "250" height= "250" src="images/step2.png">
+</p>
+
 - Step 3: Select `Submodule01.ipynb` file in the left pane to open it in the center pane.
-  ![step3](images/step3.png)
+
+<p align="center">
+ <img width= "250" height= "250" src="images/step3.png">
+</p>
+
 - Step 4: Once done with `Submodule01.ipynb`, proceed by closing it in the center pane, then opening `Submodule02.ipynb`. Likewise, perform the same operation when proceeding to `Submodule03.ipynb`
+
 - Step 5: When reading through the tutorial, users will encounter code blocks that can be executed in JupyterLab by either clicking on the cell and pressing `Shift + Enter` or by pressing the `Play` button in the top toolbar.
-  ![step5](images/step5.png)
+
+<p align="center">
+ <img width= "250" height= "250" src="images/step5.png">
+</p>
 
 ## **Software Requirements**
 
