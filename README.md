@@ -1,4 +1,4 @@
-![course card](images/anchor.JPEG)
+![course card](images/anchor.jpg)
 
 # Microbial analysis of 16S rRNA sequencing data
 
