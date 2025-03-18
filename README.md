@@ -51,19 +51,19 @@ git clone https://github.com/Nevada-Bioinformatics-Center/NIGMS-UNR-2024_CloudMo
 ```
 
 <p align="center">
- <img width= "250" height= "250" src="images/step1.png">
+ <img width= "336" height= "250" src="images/step11.png">
 </p>
 
 - Step 2: After running the command, a new folder will be visible in the left pane labeled "NIGMS-UNR-202..". Select it.
 
 <p align="center">
- <img width= "250" height= "250" src="images/step2.png">
+ <img width= "300" height= "250" src="images/step12.png">
 </p>
 
 - Step 3: Select `Submodule01.ipynb` file in the left pane to open it in the center pane.
 
 <p align="center">
- <img width= "250" height= "250" src="images/step3.png">
+ <img width= "300" height= "250" src="images/step13.png">
 </p>
 
 - Step 4: Once done with `Submodule01.ipynb`, proceed by closing it in the center pane, then opening `Submodule02.ipynb`. Likewise, perform the same operation when proceeding to `Submodule03.ipynb`
@@ -71,7 +71,13 @@ git clone https://github.com/Nevada-Bioinformatics-Center/NIGMS-UNR-2024_CloudMo
 - Step 5: When reading through the tutorial, users will encounter code blocks that can be executed in JupyterLab by either clicking on the cell and pressing `Shift + Enter` or by pressing the `Play` button in the top toolbar.
 
 <p align="center">
- <img width= "250" height= "250" src="images/step5.png">
+ <img width= "300" height= "250" src="images/step14.png">
+</p>
+
+- Step 6: When finished with the tutorial, please shutdown the cloud resources. Select `File` in the top bar then `Shutdown`.
+
+<p align="center">
+ <img width= "300" height= "250" src="images/step15.png">
 </p>
 
 ## **Software Requirements**
