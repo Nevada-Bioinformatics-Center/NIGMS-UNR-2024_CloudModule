@@ -44,15 +44,18 @@ This learning module was designed to be executed on Amazon Web Services (AWS) cl
 
  Each learning sub-modules is organized in Jupyter notebooks with step-by-step hands-on practice. This module uses the coding languge R to install necessary tools, obtain data, perform analyses, and visualize the results. Please, follow the steps highlighed [here] to create a new user account in AWS, open AWS Sagemaker Studio and launch JupyterLab.
 
-- Step 1: Open the Terminal to clone the GitHub repository with the modules and the data. Use the Git command, `git clone https://github.com/Nevada-Bioinformatics-Center/NIGMS-UNR-2024_CloudModule`
-![step1](images/step1.png)
+- Step 1: Open the Terminal to clone the GitHub repository with the modules and the data. Use the Git command
+ ```
+ git clone https://github.com/Nevada-Bioinformatics-Center/NIGMS-UNR-2024_CloudModule
+ ```
+  ![step 1](images/step1.png)
 - Step 2: After running the command, a new folder will be visible in the left pane labeled "NIGMS-UNR-202..". Select it.
-![step2](images/step2.png)
+  ![step2](images/step2.png)
 - Step 3: Select `Submodule01.ipynb` file in the left pane to open it in the center pane.
-![step3](images/step3.png)
+  ![step3](images/step3.png)
 - Step 4: Once done with `Submodule01.ipynb`, proceed by closing it in the center pane, then opening `Submodule02.ipynb`. Likewise, perform the same operation when proceeding to `Submodule03.ipynb`
 - Step 5: When reading through the tutorial, users will encounter code blocks that can be executed in JupyterLab by either clicking on the cell and pressing `Shift + Enter` or by pressing the `Play` button in the top toolbar.
-![step5](images/step5.png)
+  ![step5](images/step5.png)
 
 ## **Software Requirements**
 
@@ -62,7 +65,7 @@ This learning module was designed to be executed on Amazon Web Services (AWS) cl
 
 ## **Data**
 
- Gut microbiome data from the **WOLFPACK Study** (Wide Open Local Fecal sample collection comparing Pharmaceutical intake, ACtivity, and dietary intaKe) will be analyzed in this module. This is a University of Nevada, Reno study, designed to explore how diet, health, and lifestyle impact the gut microbiome of adults living in Northern Nevada.
+ Gut microbiome data from the **WOLFPACK Study** (Wide Open Local Fecal sample collection comparing Pharmaceutical intake, ACtivity, and dietary intaKe) analyzed in this cloud module is made possible thanks to the permission of Dr. Steven Frese, Assistant Professor and the Principal Investigator of the study. Conducted by the University of Nevada, Reno , the **WOLFPACK** study investigates the effects of diet, health, and lifestyle impact on the gut microbiome of adults living in Northern Nevada.
 
 ## **Funding**
 
