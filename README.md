@@ -32,23 +32,96 @@ The objective of this module is to enhance understanding of 16S rRNA sequencing 
 
 ## **Before Starting**
 
+This learning module was designed to be executed on Amazon Web Services (AWS) cloud platform, with the aim of requiring nothing but the files within this GitHub repository. Please, follow the steps highlighed [here] to create a new user account in AWS, open AWS Sagemaker Studio and launch JupyterLab.
 
 ## **Getting Started**
 
-This learning module was designed to be used on cloud computing platforms, with the aim of requiring nothing but the files within this GitHub repository. Each learning submodules is organized in Jupyter notebooks with step-by-step hands-on practice. This module using the coding languge R to install necessary tools, obtain data, perform analyses, and visualize the results. This module will be executed on Amazon Web Services’ (AWS) cloud platform. 
+ Each learning sub-modules is organized in Jupyter notebooks with step-by-step hands-on practice. This module uses the coding languge R to install necessary tools, obtain data, perform analyses, and visualize the results.
+
+- Step 1: Open the Terminal to clone the GitHub repository with the modules and the data. Use the Git command:
+
+```
+git clone https://github.com/Nevada-Bioinformatics-Center/NIGMS-UNR-2024_CloudModule
+```
+
+<p align="center">
+ <img width= "1280" height= "720" src="images/step11.png">
+</p>
+
+- Step 2: After running the command, a new folder will be visible in the left pane labeled "NIGMS-UNR-202..". Select it.
+
+<p align="center">
+ <img width= "1280" height= "720" src="images/step12.png">
+</p>
+
+- Step 3: Select `Submodule01.ipynb` file in the left pane to open it in the center pane.
+
+<p align="center">
+ <img width= "1280" height= "720" src="images/step13.png">
+</p>
+
+- Step 4: Once done with `Submodule01.ipynb`, proceed by closing it in the center pane, then opening `Submodule02.ipynb`. Likewise, perform the same operation when proceeding to `Submodule03.ipynb`
+
+- Step 5: When reading through the tutorial, users will encounter code blocks that can be executed in JupyterLab by either clicking on the cell and pressing `Shift + Enter` or by pressing the `Play` button in the top toolbar.
+
+<p align="center">
+ <img width= "1280" height= "720" src="images/step14.png">
+</p>
+
+- Step 6: When finished with the tutorial, please shutdown the cloud resources. Select `File` in the top bar then `Shutdown`.
+
+<p align="center">
+ <img width= "1280" height= "720" src="images/step15.png">
+</p>
 
 ## **Software Requirements**
 
+The following software are required to run this cloud module.
+
+R Version:
+```
+R version 4.4.1 (2024-06-14)
+```
+
+Required R Packages:
+
+- dada2 (version 1.32.0)
+- ggplot2 (version 3.5.1)
+- devtools (version 2.4.5)
+- patchwork (version 1.3.0.9000) | `devtools::install_github("thomasp85/patchwork")`
+- phyloseq (version 1.48.0)
+- vegan (version 2.6-8)
+- lubridate (version 1.9.3)
+- dplyr (version 1.1.4)
+- tidyverse (version 2.0.0)
+- remotes (version 2.5.0)
+- ggvegan (version 0.1.999) | `remotes::install_github("gavinsimpson/ggvegan")`
+- ggpubr (version 0.6.0)
+- rstatix (version 0.7.2)
+- stringr (version 1.5.1)
+
+**Note:** The above listed R packages and the R environment has already been created via a Docker container image `054037098114.dkr.ecr.us-east-1.amazonaws.com/sagemaker/r-notebook` and is deployed via AWS SageMaker when running this cloud module.
 
 ## **Architecture Design**
 
 
 ## **Data**
 
- Gut microbiome data from the **WOLFPACK Study** (Wide Open Local Fecal sample collection comparing Pharmaceutical intake, ACtivity, and dietary intaKe) will be analyzed in this module. This is a University of Nevada, Reno study, designed to explore how diet, health, and lifestyle impact the gut microbiome of adults living in Northern Nevada.
+ Gut microbiome data from the [**WOLFPACK Study**]((https://freselab.org/wolfpack/))(Wide Open Local Fecal sample collection comparing Pharmaceutical intake, ACtivity, and dietary intaKe) analyzed in this cloud module is made possible thanks to the permission of [_Dr. Steven Frese_](https://www.unr.edu/nutrition/directory/frese-steven), Assistant Professor and the Principal Investigator of the study. Conducted by the University of Nevada, Reno , the **WOLFPACK** study investigates the effects of diet, health, and lifestyle impact on the gut microbiome of adults living in Northern Nevada.
 
 ## **Funding**
 
 This work was fully supported by NIH NIGMS under grant number {GRANT NUMBER}.
 
 ## **License for Data**
+
+**Training-Only Data Use Disclaimer**
+The data, materials, and content provided in this training module are intended solely for educational and instructional purposes. They are not to be used for novel research, publication, or commercial applications.
+
+By accessing and using this module, you agree to the following conditions:
+
+- The data and materials are provided as-is with no guarantees regarding their accuracy, completeness, or suitability for research purposes.
+- You may use the materials only within the context of this training and may not repurpose them for independent research or external dissemination.
+- Any unauthorized use, including but not limited to publication, presentation, or redistribution of these materials outside of the training environment, is strictly prohibited.
+
+For any questions regarding permitted use or to request an exception, please contact _nbc@unr.edu_ and _sfrese@unr.edu_.
