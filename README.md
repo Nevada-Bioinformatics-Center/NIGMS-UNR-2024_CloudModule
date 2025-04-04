@@ -30,7 +30,7 @@ The overall structure of the module is explained below:
 
 The study of microbial communities and their dynamics is essential for understanding ecosystems, human health, and environmental processes. Traditional methods of identifying and characterizing microorganisms, such as culturing, often fail to capture the full diversity of microbes present in a given sample. This is where molecular techniques, particularly 16S rRNA sequencing, have revolutionized microbial analysis.
 
-16S rRNA sequencing focuses on a component of the small subunit of the ribosome found in all bacteria and archaea. This gene is highly conserved among different species, but also contains hypervariable regions that differ between taxa, making it an ideal target for identifying and classifying microbes at various taxonomic levels - from phylum to species. 
+16S rRNA sequencing focuses on a component of the small subunit of the ribosome found in all bacteria and archaea. This gene is highly conserved among different species, but also contains hypervariable regions that differ between taxa, making it an ideal target for identifying and classifying microbes at various taxonomic levels - from phylum to species.
 
 The process involves amplifying the gene from environmental DNA samples, followed by sequencing and bioinformatic analysis. The resulting data provides a detailed profile of the microbial community present in a sample, including the relative abundance of various species. This has profound applications in fields such as environmental microbiology, clinical diagnostics, gut microbiome research, and biotechnology, where understanding microbial composition can reveal important insights into health, disease, and ecological function.
 
@@ -38,7 +38,7 @@ The objective of this module is to enhance understanding of 16S rRNA sequencing 
 
 ## **Before Starting**
 
-This learning module was designed to be executed on Amazon Web Services (AWS) cloud platform, with the aim of requiring nothing but the files within this GitHub repository. Please, follow the steps highlighed [here] to create a new user account in AWS, open AWS Sagemaker Studio and launch JupyterLab.
+This learning module was designed to be executed on Amazon Web Services (AWS) cloud platform, with the aim of requiring nothing but the files within this GitHub repository. Please, follow the steps highlighed **here** to create a new user account in AWS, open AWS Sagemaker Studio and launch JupyterLab.
 
 ## **Getting Started**
 
@@ -113,7 +113,7 @@ Required R Packages:
 
 ## **Data**
 
- Gut microbiome data from the [**WOLFPACK Study**](https://freselab.org/wolfpack/)(Wide Open Local Fecal sample collection comparing Pharmaceutical intake, ACtivity, and dietary intaKe) analyzed in this cloud module is made possible thanks to the permission of [_Dr. Steven Frese_](https://www.unr.edu/nutrition/directory/frese-steven), Assistant Professor and the Principal Investigator of the study. Conducted by the University of Nevada, Reno , the **WOLFPACK** study investigates the effects of diet, health, and lifestyle impact on the gut microbiome of adults living in Northern Nevada.
+ Gut microbiome data from the [**WOLFPACK Study**](https://freselab.org/wolfpack/) (Wide Open Local Fecal sample collection comparing Pharmaceutical intake, ACtivity, and dietary intaKe) analyzed in this cloud module is made possible thanks to the permission of [_Dr. Steven Frese_](https://www.unr.edu/nutrition/directory/frese-steven), Assistant Professor and the Principal Investigator of the study. Conducted by the University of Nevada, Reno , the [**WOLFPACK**](https://freselab.org/wolfpack/) study investigates the effects of diet, health, and lifestyle impact on the gut microbiome of adults living in Northern Nevada.
 
  Sequencing for this data was conducted by the [_Idaho State University Molecular Research Core Facility_](https://www.isu.edu/mrcf/), RRID:SCR_012598.
 
