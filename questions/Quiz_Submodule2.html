@@ -15556,6 +15556,9 @@ if (typeof version == 'undefined') {
           ]
       }
   ];
+
+
+
       // Make a random ID
   function makeid(length) {
       var result = [];
@@ -16325,7 +16328,33 @@ if (typeof version == 'undefined') {
                   "feedback": "Incorrect"
               }
           ]
-      }
+      },
+      {
+        "question": "When using DADA2's filterAndTrim() function, why do we typically use different values for forward and reverse reads in the parameters truncLen=c(200,130) and maxEE=c(2,5)?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Because forward reads are always longer than reverse reads",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Because reverse reads typically have lower quality scores due to sequencing chemistry degradation",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "Because the V4 region requires different lengths for each read",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Because forward reads are more important than reverse reads",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    }
   ];
       // Make a random ID
   function makeid(length) {

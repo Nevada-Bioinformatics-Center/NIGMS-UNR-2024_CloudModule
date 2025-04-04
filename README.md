@@ -1,4 +1,4 @@
-![course card](images/anchor.JPEG)
+![course card](images/anchor.jpg)
 
 # Microbial analysis of 16S rRNA sequencing data
 
@@ -18,7 +18,13 @@
 
 ## **Overview**
 
-This cloud-based learning module introduces the principles of 16S rRNA sequencing and its applications in microbial community analysis. 16S rRNA gene sequencing is a commonly used method to study the diversity and composition of microbial communities by focusing on a specific region of the ribosomal RNA (rRNA) gene that is present in all bacteria. This sequencing techniique generates a vast amount of data. Understanding how to process and analyze this data through a series of computational steps is critical in studies related to the human gut microbiome, among others.
+This cloud-based learning module introduces the principles of 16S rRNA sequencing and its applications in microbial community analysis. 16S rRNA gene sequencing is a commonly used method to study the diversity and composition of microbial communities by focusing on a specific region of the ribosomal RNA (rRNA) gene that is present in all bacteria. This sequencing technique generates a vast amount of data. Understanding how to process and analyze this data through a series of computational steps is critical in studies related to the human gut microbiome, among others.
+
+The overall structure of the module is explained below:
+
+- [Submodule 01](Submodule01.ipynb) aims to provide an understanding of the principles of 16S rRNA sequencing and its applications in microbial community profiling.
+- [Submodule 02](Submodule02.ipynb) teaches how to preprocess raw 16S rRNA sequencing data and perform quality control checks to ensure reliable results.
+- [Submodule 03](Submodule03.ipynb) covers taxonomic classification of 16S rRNA sequences, evaluating rarefaction curves, and analyzing alpha and beta diversity in microbial communities.
 
 ## **Background**
 
@@ -111,7 +117,7 @@ Required R Packages:
 
 ## **Funding**
 
-This work was fully supported by NIH NIGMS under grant number {GRANT NUMBER}.
+The project described was fully supported by a grant from the _National Institute of General Medical Sciences_ of the _National Institutes of Health_ under Award Number _GM103440_
 
 ## **License for Data**
 
