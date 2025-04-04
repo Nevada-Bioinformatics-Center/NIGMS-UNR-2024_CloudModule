@@ -123,8 +123,9 @@ The project described was fully supported by a grant from the _National Institut
 
 ## **License for Data**
 
-**Training-Only Data Use Disclaimer**
-The data, materials, and content provided in this training module are intended solely for educational and instructional purposes. They are not to be used for novel research, publication, or commercial applications.
+**Training-Only Data Use Disclaimer:**
+
+ The data, materials, and content provided in this training module are intended solely for educational and instructional purposes. They are not to be used for novel research, publication, or commercial applications.
 
 By accessing and using this module, you agree to the following conditions:
 
