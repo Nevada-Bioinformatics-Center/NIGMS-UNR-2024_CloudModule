@@ -116,6 +116,10 @@ Required R Packages:
 ## **Architecture Design**
 
 
+<p align="center">
+ <img width= "1280" height= "720" src="images/Architecture.png">
+</p>
+
 ## **Data**
 
  Gut microbiome data from the [**WOLFPACK Study**](https://freselab.org/wolfpack/) (Wide Open Local Fecal sample collection comparing Pharmaceutical intake, ACtivity, and dietary intaKe) analyzed in this cloud module is made possible thanks to the permission of [_Dr. Steven Frese_](https://www.unr.edu/nutrition/directory/frese-steven), Assistant Professor and the Principal Investigator of the study. Conducted by the University of Nevada, Reno , the [**WOLFPACK**](https://freselab.org/wolfpack/) study investigates the effects of diet, health, and lifestyle impact on the gut microbiome of adults living in Northern Nevada.
