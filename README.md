@@ -115,10 +115,7 @@ Required R Packages:
 
 ## **Architecture Design**
 
-
-<p align="center">
- <img width= "1280" height= "720" src="images/Architecture.png">
-</p>
+![Architecture](images/Architecture.png)
 
 ## **Data**
 
